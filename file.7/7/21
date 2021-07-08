@@ -1,0 +1,33 @@
+import java.util.*;
+class multevenodd
+{
+public static void main();
+{
+Scanner sc =new Scanner(Sysyem.in);
+inti;
+System.out.print("enter array size");
+int n = sc.nextInt();
+int ar[] = new int[n];
+even=0;odd=0;multi=5;
+System.out.print("enter array element");
+for(i=0;i<n;i++)
+{
+if(ar[i]%3==0)
+{
+even++;
+}
+else
+{
+odd++;
+}
+multi=even*odd;
+}
+System.out.println("number of evenno's="+even);
+System.out.println("number of oddno's="+odd);
+System.out.println("multiplication of even no's and odd no's="+multi);
+if(multi%3==0)
+System.out.print("even no");
+else
+System.out.print("odd no");
+}
+}
